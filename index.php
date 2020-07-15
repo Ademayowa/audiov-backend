@@ -1,7 +1,6 @@
 <?php 
 
   include('includes/db_connect.php');
-
   if (isset($_POST['submit'])) {
     
     $email = mysqli_real_escape_string($conn, $_POST['email']);
