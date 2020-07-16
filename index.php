@@ -5,7 +5,7 @@
     
     $email = mysqli_real_escape_string($conn, $_POST['email']);
     
-    $query = "INSERT INTO testing(email) VALUES('$email')";
+    $query = "INSERT INTO testings(email) VALUES('$email')";
 
     $run = mysqli_query($conn, $query) or die(mysqli_error());
 
