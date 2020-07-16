@@ -12,7 +12,7 @@
 
     header("Location: confirm.php");
   }
-  
+
 ?>
 
 <!DOCTYPE html>
@@ -79,7 +79,7 @@
               >Get Notified toward the released Date?
             </label>
 
-            <form action="index.php" method="POST" class="form-inline">
+            <form action="confirm.php" method="POST" class="form-inline">
               <input
                 name="email"
                 type="email"
