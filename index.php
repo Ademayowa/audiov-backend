@@ -1,7 +1,7 @@
 <?php 
 
   include('includes/db_connect.php');
-  
+
   if (isset($_POST['submit'])) {
     
     $email = mysqli_real_escape_string($conn, $_POST['email']);
@@ -10,14 +10,9 @@
 
     $run = mysqli_query($conn, $query) or die(mysqli_error());
 
-    if ($run) {
-      echo "Data inserted";
-    } else {
-      echo "Data insertion failed";
-    }
-
-    header("Location: confirm.php?subscription=success");
+    header("Location: confirm.php");
   }
+  
 ?>
 
 <!DOCTYPE html>
