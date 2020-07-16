@@ -1,6 +1,6 @@
 <?php 
 
-$conn = mysqli_connect('localhost', 'root', '', 'test1');
+$conn = mysqli_connect('x40p5pp7n9rowyv6.cbetxkdyhwsb.us-east-1.rds.amazonaws.com', 'ivrfnq6tj6hcvdle', 'iy77jfzj0e4jzsm1', 'test1');
 
 if (!$conn) {
   echo 'Connection error: ' . mysqli_connect_error();

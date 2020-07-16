@@ -56,6 +56,11 @@ body {
   border-radius: 5px;
   border: 1px solid var(--red-color);
 }
+/* Hero end */
+
+/* Notifaction start */
+
+/* Notifaction end */
 
 @media (max-width: 1125px) {
   .bg_img .about {
@@ -149,4 +154,3 @@ body {
     margin-top: -320px !important;
   }
 }
-/* Hero end */
