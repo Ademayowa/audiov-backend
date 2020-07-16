@@ -60,7 +60,12 @@ body {
 
 /* Notification start */
 .notification {
-  background-image: url('../images/iron-man.png') !important;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(29, 30, 30, 0.1),
+      rgb(7, 14, 22)
+    ),
+    url('../images/iron-man.png') !important;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat !important;
@@ -104,7 +109,12 @@ body {
   position: relative;
   top: -120px;
 }
-/* Notifaction end */
+
+.align_left .text-red {
+  color: var(--red-color) !important;
+  line-height: 2;
+}
+/* Notification end */
 
 @media (max-width: 1125px) {
   .bg_img .about {
@@ -190,6 +200,49 @@ body {
 @media (max-width: 992px) {
   .bg_img .about {
     padding-top: 380px !important;
+  }
+}
+
+@media (max-width: 1300px) {
+  .padding_top_1 {
+    margin-top: -100px !important;
+    text-align: center !important;
+  }
+  .img_2 {
+    display: none !important;
+  }
+  .align_left p {
+    padding-top: 120px;
+  }
+}
+
+@media (max-width: 768px) {
+  .padding_top_1 {
+    margin-top: -150px !important;
+  }
+  .align_left p {
+    line-height: 2;
+  }
+  .padding_top_1 h2 {
+    padding-top: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .padding_top_1 h2,
+  .padding_top_1 .font_weight {
+    font-size: 22px !important;
+    font-weight: 800;
+    margin-top: -5px !important;
+  }
+  .align_left p {
+    font-size: 18px !important;
+    font-weight: lighter !important;
+    text-align: center !important;
+    margin-top: -5px !important;
+  }
+  .comics_top {
+    margin-top: -140px !important;
   }
 }
 

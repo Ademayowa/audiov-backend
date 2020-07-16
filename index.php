@@ -6,7 +6,7 @@
     
     $email = mysqli_real_escape_string($conn, $_POST['email']);
     
-    $query = "INSERT INTO testings(email) VALUES('$email')";
+    $query = "INSERT INTO users(email) VALUES('$email')";
 
     $run = mysqli_query($conn, $query) or die(mysqli_error());
 
@@ -79,7 +79,7 @@
               >Get Notified toward the released Date?
             </label>
 
-            <form action="confirm.php" method="POST" class="form-inline">
+            <form action="index.php" method="POST" class="form-inline">
               <input
                 name="email"
                 type="email"

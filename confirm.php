@@ -35,25 +35,31 @@
 
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-8 text-center padding_top_1">
-            <img src="./images/envelope.png" alt="img" class="img-fluid" />
+          <div class="col-md-8 text-center wow slideInLeft padding_top_1">
+            <img
+              src="./images/envelope.png"
+              alt="img"
+              class="img-fluid img_1"
+            />
             <h2 class="text-capitalize text-white mt-4">
-              thank <span class="test">you!!!</span>
+              thank <span class="font_weight">you!!!</span>
             </h2>
           </div>
 
-          <div class="col-md-4 d-none d-lg-block pl-lg-4 padding_top_2">
-            <img src="./images/phones.png" alt="img" class="img-fluid" />
+          <div
+            class="col-md-4 d-none d-lg-block pl-lg-4 wow slideInRight padding_top_2"
+          >
+            <img src="./images/phones.png" alt="img" class="img-fluid img_2" />
           </div>
 
           <div class="col-sm-12 pr-lg-5 align_left">
-            <p class="mt-3 text-white">
+            <p class="mt-3 text-white wow fadeInUp">
               Notification will be sent to your Email when
-              <span class="text-danger">Audiov </span> app is ready.
+              <span class="text-red">Audiov </span> app is ready.
             </p>
           </div>
 
-          <div class="col-sm-12 text-right">
+          <div class="col-sm-12 text-right wow fadeInRight comics_top">
             <img
               src="./images/comics-label.png"
               alt="img"
