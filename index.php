@@ -29,7 +29,7 @@
       crossorigin="anonymous"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700&display=swap"
       rel="stylesheet"
     />
     <title>Home | Audiov</title>
@@ -40,11 +40,13 @@
     <section class="bg_img px-1">
       <div class="container-fluid opacity px-3 pt-5 pb-5">
         <header>
+        <a href="index.php">
           <img
             src="./images/logo.png"
             alt="img"
             class="mobile_font img-fluid wow bounce"
           />
+        </a>
         </header>
       </div>
 

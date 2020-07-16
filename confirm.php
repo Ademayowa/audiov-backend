@@ -29,7 +29,9 @@
     <section class="notification">
       <div class="container-fluid">
         <header class="pt-5">
+        <a href="index.php">
           <img src="./images/logo.png" alt="img" class="img-fluid wow bounce" />
+        </a>
         </header>
       </div>
 
