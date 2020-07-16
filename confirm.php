@@ -1,9 +1,3 @@
-<?php 
-
-include('includes/db_connect.php');
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -27,23 +21,38 @@ include('includes/db_connect.php');
   <body>
     <!-- Notification start -->
     <section class="notification">
-      <div class="container">
-        <header>
-          <img
-            src="./images/logo.png"
-            alt="img"
-            class="img-fluid wow bounce"
-          />
+      <div class="container-fluid">
+        <header class="pt-5">
+          <img src="./images/logo.png" alt="img" class="img-fluid wow bounce" />
         </header>
       </div>
 
-      <div class="container-fluid opacity">
+      <div class="container-fluid">
         <div class="row">
-          <div class="col-lg-8 mt-5 pl-lg-2">
-            <h2 class="text-capitalize wow slideInLeft">
-              animate your <br />
-              favourite comic stories
+          <div class="col-md-8 text-center padding_top_1">
+            <img src="./images/envelope.png" alt="img" class="img-fluid" />
+            <h2 class="text-capitalize text-white mt-4">
+              thank <span class="test">you!!!</span>
             </h2>
+          </div>
+
+          <div class="col-md-4 d-none d-lg-block pl-lg-4 padding_top_2">
+            <img src="./images/phones.png" alt="img" class="img-fluid" />
+          </div>
+
+          <div class="col-sm-12 pr-lg-5 align_left">
+            <p class="mt-3 text-white">
+              Notification will be sent to your Email when
+              <span class="text-danger">Audiov </span> app is ready.
+            </p>
+          </div>
+
+          <div class="col-sm-12 text-right">
+            <img
+              src="./images/comics-label.png"
+              alt="img"
+              class="img-fluid mt-5 mb-5"
+            />
           </div>
         </div>
       </div>

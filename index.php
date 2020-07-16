@@ -1,13 +1,20 @@
 <?php 
 
   include('includes/db_connect.php');
+  
   if (isset($_POST['submit'])) {
     
     $email = mysqli_real_escape_string($conn, $_POST['email']);
     
-    $query = "INSERT INTO testings(email) VALUES('$email')";
+    $query = "INSERT INTO testing(email) VALUES('$email')";
 
     $run = mysqli_query($conn, $query) or die(mysqli_error());
+
+    if ($run) {
+      echo "Data inserted";
+    } else {
+      echo "Data insertion failed";
+    }
 
     header("Location: confirm.php?subscription=success");
   }
@@ -80,7 +87,7 @@
             <form action="index.php" method="POST" class="form-inline">
               <input
                 name="email"
-                type="text"
+                type="email"
                 class="form-control form-control-lg mr-3 col-md-6 mt-2 mb-2"
                 placeholder="Your Email" required
               />
