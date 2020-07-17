@@ -79,7 +79,7 @@
     <!-- Notification end -->
 
      <!-- Footer start -->
-    <footer class="p-4">
+    <footer class="p-4 mt-1">
       <div class="container-fluid text-center text-white">
         <div class="row">
           <div class="col-sm-12 wow fadeInUp" data-wow-duration="5s">

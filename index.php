@@ -111,9 +111,9 @@
     </section>
     <!-- Hero end -->
 
-     <!-- Take a glannce start -->
+        <!-- Take a glance start -->
     <section class="glance">
-      <div class="container border-bottom pb-5">
+      <div class="container">
         <div class="row">
           <div
             class="col-sm-12 wow bounce"
@@ -124,71 +124,95 @@
           </div>
 
           <div
-            class="col-md-4 col-sm-6 mt-4 mb-5 wow fadeInUp"
+            class="col-md-4 col-sm-6 mt-4 mb-5 text-center pt_desktop wow fadeInUp"
             data-wow-duration="5s"
           >
             <h4 class="text-white text-capitalize mt-4 mb-4 px-4">
               home screen
             </h4>
-            <img src="./images/phone1.png" alt="img" class="img-fluid" />
+            <img
+              src="./images/phone1.png"
+              alt="img"
+              class="img-fluid mx-auto hover_img"
+            />
           </div>
 
           <div
-            class="col-md-4 col-sm-6 mt-4 wow fadeInUp"
+            class="col-md-4 col-sm-6 text-center pt_desktop mt-4 fone wow fadeInUp"
             data-wow-duration="5s"
           >
             <h4 class="text-white text-capitalize mt-4 mb-4 px-4">
               book preview
             </h4>
-            <img src="./images/phone2.png" alt="img" class="img-fluid" />
+            <img
+              src="./images/phone2.png"
+              alt="img"
+              class="img-fluid hover_img"
+            />
           </div>
 
           <div
-            class="col-md-4 col-sm-6 mt-4 wow fadeInUp"
+            class="col-md-4 col-sm-6 text-center mt-4 fone1 wow fadeInUp"
             data-wow-duration="5s"
           >
             <h4 class="text-white text-capitalize mt-4 mb-4 px-4">
               page onboarding
             </h4>
-            <img src="./images/phone3.png" alt="img" class="img-fluid" />
+            <img
+              src="./images/phone3.png"
+              alt="img"
+              class="img-fluid hover_img"
+            />
           </div>
 
           <div
-            class="col-md-4 col-sm-6 mt-4 wow fadeInUp"
+            class="col-md-4 col-sm-6 text-center mt-4 p_top wow fadeInUp"
             data-wow-duration="5s"
           >
             <h4 class="text-white text-capitalize mt-4 mb-4 px-4">
               scanning process
             </h4>
-            <img src="./images/phone4.png" alt="img" class="img-fluid" />
+            <img
+              src="./images/phone4.png"
+              alt="img"
+              class="img-fluid hover_img"
+            />
           </div>
 
           <div
-            class="col-md-4 col-sm-6 mt-4 wow fadeInUp"
+            class="col-md-4 col-sm-6 text-center mt-4 p_top wow fadeInUp"
             data-wow-duration="5s"
           >
             <h4 class="text-white text-capitalize mt-4 mb-4 px-4">
               scan completed
             </h4>
-            <img src="./images/phone5.png" alt="img" class="img-fluid" />
+            <img
+              src="./images/phone5.png"
+              alt="img"
+              class="img-fluid hover_img"
+            />
           </div>
 
           <div
-            class="col-md-4 col-sm-6 mt-4 wow fadeInUp"
+            class="col-md-4 col-sm-6 text-center fone2 mt-4 p_top wow fadeInUp"
             data-wow-duration="5s"
           >
             <h4 class="text-white text-capitalize mt-4 mb-4 px-4">
               export for use
             </h4>
-            <img src="./images/phone6.png" alt="img" class="img-fluid" />
+            <img
+              src="./images/phone6.png"
+              alt="img"
+              class="img-fluid hover_img"
+            />
           </div>
         </div>
       </div>
     </section>
-    <!-- Take a glannce end -->
+    <!-- Take a glance end -->
 
     <!-- Footer start -->
-    <footer class="p-4">
+    <footer class="p-4 mt-1">
       <div class="container-fluid text-center text-white">
         <div class="row">
           <div class="col-sm-12 wow fadeInUp" data-wow-duration="5s">

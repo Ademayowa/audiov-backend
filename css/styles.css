@@ -125,9 +125,16 @@ label {
 /* Notification end */
 
 /* Glance start */
+
+.hover_img:hover {
+  transform: scale(1.06);
+  cursor: pointer;
+}
+
 .glance {
   background-color: #000000;
   padding-top: 80px;
+  padding-bottom: 150px;
 }
 
 .glance h2 {
@@ -135,6 +142,9 @@ label {
   font-weight: 900;
   font-size: 40px;
   line-height: 49px;
+}
+.glance .p_top {
+  padding-top: 50px;
 }
 /* Glance end */
 
@@ -146,7 +156,7 @@ footer {
 footer p {
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 20px !important;
   line-height: 1.8;
 }
 /* Footer end */
@@ -163,6 +173,15 @@ footer p {
 @media (max-width: 768px) {
   .bg_img .about {
     margin-top: 60px !important;
+  }
+  .glance .fone {
+    margin-top: -5px !important;
+  }
+  .glance .fone1 {
+    padding-top: 50px !important;
+  }
+  .glance .fone2 {
+    padding-top: 80px !important;
   }
 }
 
