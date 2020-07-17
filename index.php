@@ -71,14 +71,14 @@
             <p class="pt-5 about wow pulse">
               Audiov is an animation app which allows user to animate their
               favorite comic story easily by creating professional animated
-              video for commercial and personnal uses.Audiov will surely make a
+              video for commercial and personnal uses. Audiov will surely make a
               great impact in the Animation Industries
             </p>
           </div>
 
           <div class="col-md-8 forms wow fadeInLeft notified">
             <label for="form" class="text-white none px-1"
-              >Get Notified toward the released Date?
+              >Stay Updated with Audiov Release Date
             </label>
 
             <form action="index.php" method="POST" class="form-inline">
