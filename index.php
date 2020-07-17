@@ -45,6 +45,7 @@
             src="./images/logo.png"
             alt="img"
             class="mobile_font img-fluid wow bounce"
+            data-wow-iteration="200"
           />
         </a>
         </header>
@@ -63,7 +64,9 @@
             <img
               src="./images/phones.png"
               alt="img"
-              class="img-fluid wow slideInRight"
+              class="img-fluid wow pulse"
+              data-wow-duration="3s"
+              data-wow-iteration="200"
             />
           </div>
 
@@ -107,6 +110,99 @@
       </div>
     </section>
     <!-- Hero end -->
+
+     <!-- Take a glannce start -->
+    <section class="glance">
+      <div class="container border-bottom pb-5">
+        <div class="row">
+          <div
+            class="col-sm-12 wow bounce"
+            data-wow-duration="3s"
+            data-wow-iteration="200"
+          >
+            <h2 class="text-center text-white mt-5">Take a Glance at Audiov</h2>
+          </div>
+
+          <div
+            class="col-md-4 col-sm-6 mt-4 mb-5 wow fadeInUp"
+            data-wow-duration="5s"
+          >
+            <h4 class="text-white text-capitalize mt-4 mb-4 px-4">
+              home screen
+            </h4>
+            <img src="./images/phone1.png" alt="img" class="img-fluid" />
+          </div>
+
+          <div
+            class="col-md-4 col-sm-6 mt-4 wow fadeInUp"
+            data-wow-duration="5s"
+          >
+            <h4 class="text-white text-capitalize mt-4 mb-4 px-4">
+              book preview
+            </h4>
+            <img src="./images/phone2.png" alt="img" class="img-fluid" />
+          </div>
+
+          <div
+            class="col-md-4 col-sm-6 mt-4 wow fadeInUp"
+            data-wow-duration="5s"
+          >
+            <h4 class="text-white text-capitalize mt-4 mb-4 px-4">
+              page onboarding
+            </h4>
+            <img src="./images/phone3.png" alt="img" class="img-fluid" />
+          </div>
+
+          <div
+            class="col-md-4 col-sm-6 mt-4 wow fadeInUp"
+            data-wow-duration="5s"
+          >
+            <h4 class="text-white text-capitalize mt-4 mb-4 px-4">
+              scanning process
+            </h4>
+            <img src="./images/phone4.png" alt="img" class="img-fluid" />
+          </div>
+
+          <div
+            class="col-md-4 col-sm-6 mt-4 wow fadeInUp"
+            data-wow-duration="5s"
+          >
+            <h4 class="text-white text-capitalize mt-4 mb-4 px-4">
+              scan completed
+            </h4>
+            <img src="./images/phone5.png" alt="img" class="img-fluid" />
+          </div>
+
+          <div
+            class="col-md-4 col-sm-6 mt-4 wow fadeInUp"
+            data-wow-duration="5s"
+          >
+            <h4 class="text-white text-capitalize mt-4 mb-4 px-4">
+              export for use
+            </h4>
+            <img src="./images/phone6.png" alt="img" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Take a glannce end -->
+
+    <!-- Footer start -->
+    <footer class="p-4">
+      <div class="container-fluid text-center text-white">
+        <div class="row">
+          <div class="col-sm-12 wow fadeInUp" data-wow-duration="5s">
+            <img
+              src="./images/logo.png"
+              alt="img"
+              class="img-fluid mt-4 mb-1"
+            />
+            <p>&copy; 2020 Privacy-Terms</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer end -->
 
     <!-- Script start -->
     <script

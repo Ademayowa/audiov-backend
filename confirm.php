@@ -30,7 +30,8 @@
       <div class="container-fluid">
         <header class="pt-5">
         <a href="index.php">
-          <img src="./images/logo.png" alt="img" class="img-fluid wow bounce" />
+          <img src="./images/logo.png" alt="img" class="img-fluid wow bounce"
+          data-wow-iteration="200" />
         </a>
         </header>
       </div>
@@ -51,7 +52,11 @@
           <div
             class="col-md-4 d-none d-lg-block pl-lg-4 wow slideInRight padding_top_2"
           >
-            <img src="./images/phones.png" alt="img" class="img-fluid img_2" />
+            <img src="./images/phones.png" alt="img" 
+              class="img-fluid wow pulse img_2"
+              data-wow-duration="3s"
+              data-wow-iteration="200"
+            />
           </div>
 
           <div class="col-sm-12 pr-lg-5 align_left">
@@ -72,6 +77,23 @@
       </div>
     </section>
     <!-- Notification end -->
+
+     <!-- Footer start -->
+    <footer class="p-4">
+      <div class="container-fluid text-center text-white">
+        <div class="row">
+          <div class="col-sm-12 wow fadeInUp" data-wow-duration="5s">
+            <img
+              src="./images/logo.png"
+              alt="img"
+              class="img-fluid mt-4 mb-1"
+            />
+            <p>&copy; 2020 Privacy-Terms</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer end -->
 
     <!-- Script start -->
     <script
