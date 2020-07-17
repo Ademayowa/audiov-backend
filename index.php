@@ -124,7 +124,7 @@
           </div>
 
           <div
-            class="col-md-4 col-sm-6 mt-4 mb-5 text-center pt_desktop wow fadeInUp"
+            class="col-md-4 col-sm-6 mt-5 mb-5 text-center pt_desktop wow fadeInUp"
             data-wow-duration="5s"
           >
             <h4 class="text-white text-capitalize mt-4 mb-4 px-4">
@@ -138,7 +138,7 @@
           </div>
 
           <div
-            class="col-md-4 col-sm-6 text-center pt_desktop mt-4 fone wow fadeInUp"
+            class="col-md-4 col-sm-6 text-center pt_desktop mt-5 fone wow fadeInUp"
             data-wow-duration="5s"
           >
             <h4 class="text-white text-capitalize mt-4 mb-4 px-4">
@@ -152,7 +152,7 @@
           </div>
 
           <div
-            class="col-md-4 col-sm-6 text-center mt-4 fone1 wow fadeInUp"
+            class="col-md-4 col-sm-6 text-center mt-5 fone1 wow fadeInUp"
             data-wow-duration="5s"
           >
             <h4 class="text-white text-capitalize mt-4 mb-4 px-4">
@@ -166,7 +166,7 @@
           </div>
 
           <div
-            class="col-md-4 col-sm-6 text-center mt-4 p_top wow fadeInUp"
+            class="col-md-4 col-sm-6 text-center mt-5 p_top wow fadeInUp"
             data-wow-duration="5s"
           >
             <h4 class="text-white text-capitalize mt-4 mb-4 px-4">
@@ -180,7 +180,7 @@
           </div>
 
           <div
-            class="col-md-4 col-sm-6 text-center mt-4 p_top wow fadeInUp"
+            class="col-md-4 col-sm-6 text-center mt-5 p_top wow fadeInUp"
             data-wow-duration="5s"
           >
             <h4 class="text-white text-capitalize mt-4 mb-4 px-4">
@@ -194,7 +194,7 @@
           </div>
 
           <div
-            class="col-md-4 col-sm-6 text-center fone2 mt-4 p_top wow fadeInUp"
+            class="col-md-4 col-sm-6 text-center fone2 mt-5 p_top wow fadeInUp"
             data-wow-duration="5s"
           >
             <h4 class="text-white text-capitalize mt-4 mb-4 px-4">
